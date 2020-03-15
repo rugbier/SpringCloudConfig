@@ -21,7 +21,6 @@ public class ConfigClient {
     @Value("${general.server}")
     private String server;
 
-
     public static void main(String[] args) {
         SpringApplication.run(ConfigClient.class, args);
     }
